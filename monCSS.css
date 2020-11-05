@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 35px;
+    color: #443C34;
+    text-align: center;
+    line-height: 80px;
+    padding-top: 10px;
+}
+
+p{
+    color: #4F4D48;
+    font-size: 18px;
+    text-align: center;
+}
+
+a{
+    color: #4F4D48;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.grosCarre{
+    background-color: #FDF8F2;
+    width: 1515px;
+    height: 695px;
+    border: 3px solid #625F5A;
+}
+
+.lienLogo{
+    position: absolute;
+    margin-left: 530px;
+    margin-top: 275px;
+}
+
+.lienCarte{
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 275px;
+}
+
+.petitLogo{
+    background-image: url("logo.png");
+    width: 274px;
+    height: 195px;
+    border: 3px solid #625F5A;
+    position: absolute;
+    margin-left: 430px;
+    margin-top: 50px;
+}
+
+.petiteCarte{
+    background-image: url("carte.png");
+    width: 263px;
+    height: 195px;
+    border: 3px solid #625F5A;
+    position: absolute;
+    margin-left: 790px;
+    margin-top: 50px;
+}
+
+.fond{
+    margin-top: 413px;
+    margin-left: -1px;
+}
+
+footer{
+    background-color: #686868;
+    color: #C9C8C3;
+    text-align: right;
+    padding-right: 30px;
+    padding-top: 15px;
+    height: 110px;
+}
+
+/* FOOTER "#686868" COULEUR TITRE "#443C34" MANON "#C9C8C3" ACIVATE "#858585" LOREM "#7A787D" ENCADRER "#625F5A*/
